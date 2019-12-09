@@ -54,5 +54,6 @@ public class BoardDAOImpl  implements BoardDAO {
 		return session.selectList(namespace + ".listAll");
 
 	}
+
 }
 
